@@ -107,11 +107,22 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		95D6245627A3FC70003E429C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		95891568279BF57900A814D2 /* 11 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9589157D279BF57A00A814D2 /* Build configuration list for PBXNativeTarget "11" */;
 			buildPhases = (
+				95D6245627A3FC70003E429C /* Headers */,
 				95891565279BF57900A814D2 /* Sources */,
 				95891566279BF57900A814D2 /* Frameworks */,
 				95891567279BF57900A814D2 /* Resources */,

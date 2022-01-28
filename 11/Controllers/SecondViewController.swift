@@ -28,5 +28,4 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         self.prefecture = prefecture
         performSegue(withIdentifier: "toNext", sender: nil)
     }
-    
 }

@@ -36,7 +36,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="変更"/>
                                 <connections>
-                                    <segue destination="rL0-IH-ZWy" kind="presentation" identifier="toNext" modalPresentationStyle="fullScreen" id="nvn-AH-nkP"/>
+                                    <segue destination="rL0-IH-ZWy" kind="presentation" identifier="" modalPresentationStyle="fullScreen" id="nvn-AH-nkP"/>
                                 </connections>
                             </button>
                         </subviews>
