@@ -8,8 +8,8 @@
 import UIKit
 
 class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-   var text = "未選択"
-   private let prefectures = Models.prefectures
+    private let prefectures = Models.prefectures
+    var prefecture = ""
 
     @IBOutlet weak var tableview: UITableView!
 
@@ -25,8 +25,8 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let prefecture = prefectures[indexPath.row]
-        text = prefecture
-        performSegue(withIdentifier: "segue", sender: nil)
+        self.prefecture = prefecture
+        performSegue(withIdentifier: "toNext", sender: nil)
     }
     
 }

@@ -79,10 +79,9 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.64920021210000001" green="1" blue="0.66132041210000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="vbf-Iv-Gwo" kind="unwind" identifier="segue" unwindAction="exitWithSegue:" id="JrY-Dl-JfX"/>
+                                            <segue destination="vbf-Iv-Gwo" kind="unwind" identifier="toNext" unwindAction="exitWithSegue:" id="JrY-Dl-JfX"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -114,7 +113,6 @@
         <!--Navigation Controller-->
         <scene sceneID="4Dn-3a-6Zf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tD4-bG-MhP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rL0-IH-ZWy" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6me-YY-Y0L">
@@ -126,6 +124,7 @@
                         <segue destination="oeT-QI-zK3" kind="relationship" relationship="rootViewController" id="JbT-8z-ha6"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tD4-bG-MhP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1150.7246376811595" y="93.75"/>
         </scene>
