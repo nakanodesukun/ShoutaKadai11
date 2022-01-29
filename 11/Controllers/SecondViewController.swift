@@ -11,7 +11,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     private let prefectures = Models.prefectures
     var prefecture = ""
 
-    @IBOutlet weak var tableview: UITableView!
+    @IBOutlet private weak var tableview: UITableView!
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return prefectures.count
