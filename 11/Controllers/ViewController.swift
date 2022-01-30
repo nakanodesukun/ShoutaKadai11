@@ -14,8 +14,9 @@ class ViewController: UIViewController {
     @IBAction func exit(segue: UIStoryboardSegue) {
         // 汎用性がある
         switch segue.identifier {
-        case "toNext": guard let secondViewController = segue.source as? SecondViewController else { return }
-            resultLabel.text = secondViewController.prefecture
+        case "toNext":
+            guard let secondViewController = segue.source as? SecondViewController else { return }
+            resultLabel.text = secondViewController.selectedPrefecture
         default:
             break
         }
