@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // 汎用性がある
         switch segue.identifier {
         case "toNext": guard let secondViewController = segue.source as? SecondViewController else { return }
-            resultLabel.text = secondViewController.prefecture
+            resultLabel.text = secondViewController.selectedPrefecture
         default:
             break
         }
